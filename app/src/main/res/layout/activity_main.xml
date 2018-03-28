@@ -38,13 +38,40 @@
         android:onClick="clickBtn"
         android:text="提交文件" />
 
+    <Button
+        android:id="@+id/post_span_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickBtn"
+        android:text="分块提交" />
+
+    <Button
+        android:id="@+id/post_Head_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickBtn"
+        android:text="提取响应头" />
+
+    <Button
+        android:id="@+id/post_cache_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickBtn"
+        android:text="缓存(网络，本地)" />
 
 
-
-    <TextView
-        android:id="@+id/content_body"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/content_body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
+
+
+
 
 
 </LinearLayout>
