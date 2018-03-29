@@ -96,6 +96,8 @@ public class MainActivity extends AppCompatActivity {
             }
         }).start();
 
+        Object objects = new int[5];
+        this.getClass();
 
 
     }
